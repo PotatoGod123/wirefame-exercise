@@ -1,0 +1,94 @@
+body{
+  width: 1060px; ;
+}
+nav {
+  width: 1060px;
+  background-color: rgb(58, 58, 58);
+  display: inline-block;
+}
+
+nav ol li{
+  margin-left: 100px;
+  margin-top: 12px;
+  float: left;
+  text-align: center;
+  line-height: 44px;
+  font-weight: bold;
+  color: gray;
+}
+
+.navnumbers{
+  margin-left: 75px;
+  margin-top: 24px;
+}
+
+section {
+  margin-left: 54px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+#specialnavnumber {
+  margin-left: 40px;
+}
+
+#specialsmolimage {
+  margin-left: 26px;
+  margin-right: 26px;
+}
+#imagebyParagraph{
+  float: left;
+  margin-right: 38px;
+}
+
+#paragraphontopButton {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  height: 330px;
+  width: 460px;
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+#paragraphontopButton::-webkit-scrollbar{ /*for chrome, got this of w3school!!!! */
+  width: 0px;
+}
+
+#buttonunderParagraph {
+  border: solid black;
+  background: black;
+  color: white;
+  border-right-width: 35px;
+  border-bottom-width: 11px;
+  padding-left: 36px;
+  padding-top: 8px;
+  border-top-width: 0px;
+  font-size: inherit;
+  padding-bottom: 1px;
+  padding-right: 9px;
+  margin-top: 15px;
+}
+
+#buttonunderParagraph:hover{
+  border: solid black;
+  background: white;
+  color: black;
+  border-right-width: 35px;
+  border-bottom-width: 11px;
+  padding-left: 36px;
+  padding-top: 8px;
+  border-top-width: 0px;
+  font-size: inherit;
+  padding-bottom: 1px;
+  padding-right: 9px;
+  margin-top: 15px;
+}
+
+footer{
+  width: 1060px;
+  background-color: rgb(58, 58, 58);
+  padding-top: 70px;
+  border-top-width: 0px;
+  border-top-style: solid;
+  padding-bottom: 33px;
+}
